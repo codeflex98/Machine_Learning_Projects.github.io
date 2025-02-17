@@ -35,8 +35,5 @@ To view and analyze the report, ensure you have:
 - Experimenting with deep learning techniques.
 - Enhancing interpretability of models for business applications.
 
-## Contact
-For any questions or collaboration opportunities, please reach out via email.
-
 ## Resources
 This README provides an overview of the report and its contents. For detailed analysis, please refer to the full `Bank Customer Churn Analysis.html` file.
