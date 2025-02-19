@@ -1,2 +1,2 @@
-# bank_customer_churn_analysis.github.io
-Bank Customer Churn Analysis and Prediction
+# Machine_learning_projects.github.io
+Analysis and Prediction projects (readme under construction)
