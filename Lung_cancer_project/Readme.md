@@ -1,7 +1,3 @@
-Here is a README file template for your GitHub project:
-
----
-
 # Lung Cancer Prediction App
 
 This project is a machine learning-based application to predict the risk of lung cancer based on input features. The model is built using various health-related features, and the app is developed using Streamlit for an interactive user experience.
@@ -76,7 +72,3 @@ If you would like to contribute to the project, feel free to fork the repository
 ## License
 
 This project is open-source and available under the MIT License.
-
----
-
-Let me know if you'd like to modify or add any additional details to this!
