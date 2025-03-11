@@ -5,7 +5,7 @@ This project focuses on developing a deep learning-based CAPTCHA recognition sys
 ## Repository Structure
 ```
 CAPTCHA-CNN-Project/
-│-- CAPTCHA-CNN_Report.qmd  # Project Report (Quarto markdown file)
+│-- CAPTCHA-CNN_Report.html  # Project Report (Quarto markdown file)
 │-- CAPTCHA-CNN_project.ipynb  # Jupyter Notebook with model training and testing
 │-- README.md  # Project documentation (this file)
 ```
