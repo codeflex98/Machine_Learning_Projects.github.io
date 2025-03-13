@@ -4,10 +4,12 @@ import json
 import nltk
 import numpy as np
 import tensorflow as tf
+import os
 from nltk.stem import WordNetLemmatizer
 
 # Load intents
-with open("starwarsintents.json", "r") as file:
+json_path = os.path.join(os.path.dirname(__file__), "starwarsintents.json")
+with open(json_path, "r") as file:
     intents = json.load(file)
 
 lemmatizer = WordNetLemmatizer()
