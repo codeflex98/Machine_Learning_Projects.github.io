@@ -101,3 +101,7 @@ Bot: Darth Vader was a Dark Lord of the Sith and once a Jedi Knight named Anakin
 - Enhance the model using LSTM or Transformer architecture
 - Expand the dataset with more characters and responses
 - Develop a web-based interface using Flask or Streamlit
+
+## Report link
+
+https://codeflex98.github.io/Machine_Learning_Projects.github.io/starwars_chatBot/StarWars_chatbot.html
