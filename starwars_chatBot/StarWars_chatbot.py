@@ -1,23 +1,20 @@
 import streamlit as st
 import random
 import json
+import nltk
 import numpy as np
 import tensorflow as tf
-import os
-import joblib
-
 from nltk.stem import WordNetLemmatizer
 
 # Load intents
-json_path = os.path.join(os.path.dirname(__file__), "starwarsintents.json")
-with open(json_path, "r") as file:
+with open("starwarsintents.json", "r") as file:
     intents = json.load(file)
 
 lemmatizer = WordNetLemmatizer()
 
 # Load trained model
-model_path = os.path.join(os.path.dirname(__file__), 'chatbot_model.h5')
-model = joblib.load(model_path)
+model = tf.keras.models.load_model("chatbot_model.h5")
+
 # Preprocess words and classes
 words = sorted(set([lemmatizer.lemmatize(w.lower()) for intent in intents['intents'] for pattern in intent['patterns'] for w in pattern.split()]))
 classes = sorted(set(intent['tag'] for intent in intents['intents']))
