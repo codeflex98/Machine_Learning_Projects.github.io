@@ -2,6 +2,9 @@
 
 This project presents a complete pipeline for parsing resumes using Natural Language Processing (NLP) techniques. It utilizes `spaCy`, a robust NLP library in Python, to extract structured information from unstructured resume text. The main goal is to automate the extraction of relevant fields such as name, contact details, skills, education, work experience, and more, making the data suitable for further analysis or integration into recruitment systems.
 
+# Report URL
+https://codeflex98.github.io/Machine_Learning_Projects.github.io/Resume_Parser_using_Spacy/Resume_parser_spacy.html
+
 ## Table of Contents
 
 * [Abstract](#abstract)
